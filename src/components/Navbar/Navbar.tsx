@@ -1,17 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Navbar.css'
-
+import "./Navbar.css";
+import imagen from "../../logoarifa.jpg";
 const Navbar = () => {
   return (
     <nav>
+      <img src={imagen} alt="Logo"/>
       <ul>
         <li>
-          <Link to="/">Inicio</Link>
+          <Link to="/">tabla</Link>
         </li>
         <li>
-          <Link to="/Contact">Contacto</Link>
+          <Link to="/Question">Pregunta</Link>
         </li>
+		<li>
+          <Link to="/Inicio">Start</Link>
+        </li>
+		
       </ul>
     </nav>
   );

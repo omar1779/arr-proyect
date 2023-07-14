@@ -1,0 +1,19 @@
+.general {
+	position: relative;
+	display: table;
+	height: 150px;
+	width: 98%;
+	text-align: center;
+	font-size: 38px;
+	background: white;
+	border-radius: 30px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+
+	
+}
+
+.prueba{
+	text-align: center;
+	top: 10vw;
+	right: -1vw;
+}

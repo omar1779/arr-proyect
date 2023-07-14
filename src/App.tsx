@@ -1,8 +1,10 @@
 import './App.css'
 import {Routes , Route} from 'react-router-dom'
-import Home from './page/Home'
-import Contact from './page/Contact'
+import Home from './page/Home/Home'
+import Question from './page/Question/Question'
+import Start from './components/Card'
 import Navbar from './components/Navbar/Navbar'
+import logoarifa from './logoarifa.jpg'
 function App() {
 
   return (
@@ -10,10 +12,11 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Question' element={<Question/>}/>
+		<Route path='/Start' element={<Start/>}/>
       </Routes>
     </div>
   )
 }
-
+export const imagen = [logoarifa]
 export default App

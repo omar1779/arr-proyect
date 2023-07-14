@@ -1,0 +1,9 @@
+.App{
+	background: rgb(242, 242, 241);
+	background-position: center;
+	position: relative;
+	z-index: 1;
+	width: auto;
+	height: 50vw;
+	overflow-x: hidden;
+}

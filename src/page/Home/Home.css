@@ -1,0 +1,78 @@
+.casita{
+	z-index: 2;
+}
+h1{
+	color: black;
+	text-align: center;
+}
+html{
+	min-height: 100vh;
+}
+body{
+	min-height: 100vh;
+}
+
+table {
+  
+  border-collapse: collapse;
+  color: white;
+  margin: 0 auto;
+}
+
+td {
+  
+  background-color: black;
+  border: 1px solid;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0020b1;
+  color: white;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: white;
+  
+}
+input{
+	border: 1px solid;
+	border-color: #0020b1;
+}
+
+th:last-child{
+	border-radius: 0px 10px 0px 0px;
+}
+
+th:first-child{
+	border-radius: 10px 0px 0px 0px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #929292;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
