@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function start() {
+function Start() {
   return (
-	<div>Start</div>
-  )
+    <div>
+      <h1>soy start</h1>
+    </div>
+  );
 }
 
-export default start
+export default Start;

@@ -5,7 +5,7 @@ import imagen from "../../logoarifa.jpg";
 const Navbar = () => {
   return (
     <nav>
-      <img src={imagen} alt="Logo"/>
+      <img src={imagen} alt="Logo" />
       <ul>
         <li>
           <Link to="/">tabla</Link>
@@ -13,10 +13,9 @@ const Navbar = () => {
         <li>
           <Link to="/Question">Pregunta</Link>
         </li>
-		<li>
-          <Link to="/Inicio">Start</Link>
+        <li>
+          <Link to="/Start">Start</Link>
         </li>
-		
       </ul>
     </nav>
   );

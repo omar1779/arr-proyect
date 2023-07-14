@@ -1,28 +1,28 @@
 import React from "react";
-import Navbar from "../components/Navbar/Navbar";
 import { useState } from "react";
 import "./Home.css";
 function Home() {
   function agregarFila() {
-    var table = document.getElementById("tabla");
-    var row = table.insertRow(table.rows.length);
-    var col1 = row.insertCell(0);
-    var col2 = row.insertCell(1);
-    var col3 = row.insertCell(2);
-    col1.innerHTML = '<input type="text" name="numero[]">';
-    col2.innerHTML = '<input type="text" name="nombre[]">';
-    col3.innerHTML = '<input type="text" name="apellido[]">';
+    var table = document.getElementById("tabla") as HTMLTableElement;
+    if (table) {
+      var row = table.insertRow(table.rows.length);
+      var col1 = row.insertCell(0);
+      var col2 = row.insertCell(1);
+      var col3 = row.insertCell(2);
+      col1.innerHTML = '<input type="text" name="numero[]">';
+      col2.innerHTML = '<input type="text" name="nombre[]">';
+      col3.innerHTML = '<input type="text" name="apellido[]">';
+    }
   }
   function numRows() {
     for (let i = 0; i < 2; i++) {
       agregarFila();
     }
   };
-  
   function eliminarFila() {
-    var table = document.getElementById("tabla");
+    var table = document.getElementById("tabla") as HTMLTableElement;
     if (table.rows.length > 2) {
-      table.deleteRow(table.rows.length - 1);
+      table.deleteRow(table.rows.length - 1 as number);
     }
   }
   const [data, setData] = useState("");
