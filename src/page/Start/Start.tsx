@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Start() {
+function start() {
   return (
 	<div>Start</div>
   )
 }
 
-export default Start
+export default start
