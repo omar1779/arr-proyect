@@ -2,31 +2,27 @@ import React, { useState } from "react";
 import "./Start.css";
 
 function Start() {
+  const [itemnsIndex, setItemsIndex]= useState(0)
   const [items, setItems] = useState([
     {
       text: "Legal entities listed on a recognized local or international stock exchange.",
-      checked: false,
     },
     {
       text: "Legal entities owned by an international or multilateral organization or by a State.",
-      checked: true,
     },
     {
       text: "Legal entities that are owners or charterers of vessels registered exclusively under the international service of the Merchant Marine of the Republic of Panama.",
-      checked: false,
     },
     {
       text: "Legal entities that carry out commercial operations within the Republic of Panama.",
-      checked: false,
     },
   ]);
-
-  const handleCheckboxChange = (index) => {
-    setItems((prevItems) => {
-      const updatedItems = [...prevItems];
-      updatedItems[index].checked = !updatedItems[index].checked;
-      return updatedItems;
-    });
+  const handleInfo = (index: number): void => {
+    if (index + 1 === itemnsIndex) {
+      setItemsIndex(0);
+    } else {
+      setItemsIndex(index + 1);
+    }
   };
   return (
     <div>
@@ -73,8 +69,7 @@ function Start() {
                 <td>
                   <input
                     type="checkbox"
-                    checked={item.checked}
-                    onChange={() => handleCheckboxChange(index)}
+                    onChange={() => handleInfo(index)}
                   />
                 </td>
               </tr>
