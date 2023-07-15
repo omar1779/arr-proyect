@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Question.css";
 import { FaAngleLeft,FaAngleRight,FaDoorOpen } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import { getAll } from "../../connections/server";
 
 
 function Contact() {
@@ -33,7 +34,7 @@ const textoabbr2 = "Click Here";
        
       </div>
 	  <div className="botones">
-          <button className="back">
+          <button className="back" onClick={()=>getAll()}>
 		  <FaAngleLeft /*style={style}*/ />
 			Back
           </button>

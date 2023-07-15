@@ -5,7 +5,7 @@ import Question from './page/Question/Question'
 import Start from './page/Start/Start'
 import Prueba from './page/Prueba'
 import Navbar from './components/Navbar/Navbar'
-import logoarifa from './logoarifa.jpg'
+
 function App() {
 
   return (
@@ -20,5 +20,4 @@ function App() {
     </div>
   )
 }
-export const imagen = [logoarifa]
 export default App

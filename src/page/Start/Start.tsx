@@ -21,7 +21,7 @@ function Start() {
     },
   ]);
 
-  const handleCheckboxChange = (index) => {
+  const handleCheckboxChange = (index:number) => {
     setItems((prevItems) => {
       const updatedItems = [...prevItems];
       updatedItems[index].checked = !updatedItems[index].checked;

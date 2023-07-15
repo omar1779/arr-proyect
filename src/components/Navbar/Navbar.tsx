@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import imagen from "../../logoarifa.jpg";
+import imagen from "../../assets/logoarifa.jpg";
 const Navbar = () => {
   return (
     <nav>
