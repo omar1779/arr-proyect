@@ -1,0 +1,140 @@
+.BoxCentrar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.historia {
+  font-size: 18px;
+  width: 92%;
+  margin: 1%;
+}
+
+.precionable {
+  width: 4%;
+  cursor: pointer;
+  background-color: rgb(0, 85, 255);
+}
+
+.seleccionado {
+  width: 4%;
+}
+
+.opciones {
+  position: initial;
+  padding: 0px 0px;
+  font-size: 2.5vw;
+  color: #0b1d79;
+  border-radius: 10px;
+  height: 3vw;
+  width: 3vw;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 4px 0px rgba(30, 30, 30, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  line-height: 1vw; /* Igualar la altura del botón */
+  text-align: center;
+}
+
+.cursorabbr {
+  cursor: pointer;
+}
+
+#customers {
+  border-collapse: collapse;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+#customers td {
+  background-color: rgba(255, 255, 255, 0.527);
+  height: 4vw;
+}
+
+.palabras {
+  margin: 0%;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #99b1dca7;
+}
+#customers tr:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.opciones:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 4px 0px rgba(152, 152, 152, 0.486);
+}
+
+.opciones:active {
+  transform: translateY(0);
+  box-shadow: 0px 4px 4px 0px rgb(0, 38, 255);
+}
+
+.cuadrito {
+  margin: 0%;
+}
+
+.centrador {
+  display: flex;
+  justify-content: center;
+}
+
+.espacio {
+  position: relative;
+  display: flex;
+}
+
+.tabtest {
+  background: white;
+}
+.tabtest:last-child {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.tabtest1 {
+  width: 70vmax;
+}
+
+#customers tr:nth-child(even):hover,
+.tabtest:hover {
+  background: #085fd8;
+}
+
+#reenviar {
+  text-align: justify;
+}
+
+.medio {
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(255, 136, 0);
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#verde{
+	color: rgb(57, 255, 47);
+}
+
+#rojo{
+	color: rgb(255, 0, 0);
+}
+
+#negro{
+	color: rgb(0, 0, 0);
+}
+
+.colores {
+  font-size: 16px;
+  color: black;
+}
+
+.nada,.nada:hover{
+	background-color: transparent;
+	position: relative;
+	display:contents;
+}

@@ -8,16 +8,25 @@ const Navbar = () => {
       <img src={imagen} alt="Logo" />
       <ul>
         <li>
-          <Link to="/">tabla</Link>
+          <Link to="/">Start</Link>
         </li>
         <li>
           <Link to="/Question">Pregunta</Link>
         </li>
         <li>
-          <Link to="/Start">Start</Link>
+          <Link to="/Tabla">Tabla</Link>
+        </li>
+		<li>
+          <Link to="/Reports">Reports</Link>
         </li>
         <li>
-          <Link to="/Prueba">Prueba</Link>
+          <Link to="/Submit">SandBox</Link>
+        </li>
+		<li className="destacar">
+          <Link to="/Login">Login</Link>
+        </li>
+		<li >
+          <Link to="/GestorEntidades">GestorEntidades</Link>
         </li>
       </ul>
     </nav>

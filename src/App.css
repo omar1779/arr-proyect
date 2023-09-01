@@ -6,5 +6,35 @@
 	width: auto;
 	height: 100vh;
 	overflow-x: hidden;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+
 }
-	
+
+p,h1,th{
+	user-select: none;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+
+.pregunta{
+	padding: 0%;
+	position:relative;
+	height: 3vw;
+	width: 3vw;
+	font-size: 3vw;
+	color: #243A76;
+	border-radius: 100px;
+	top: 1vw;
+	left: 1vw;
+}
+
+.preguntaA{
+	padding: 0%;
+	position:relative;
+	height: 3vw;
+	width: 3vw;
+	font-size: 3vw;
+	color: #243A76;
+	border-radius:10px;
+	top: 0vw;
+	left: 95%;
+}

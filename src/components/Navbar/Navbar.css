@@ -3,16 +3,17 @@
 nav {
   background: linear-gradient(
     to bottom,
-    #0020b1 62%,
-    #0020b1 0%,
+    #243A76 61%,
+    #243A76 0%,
     #ffffff 0%,
-    #ffffff 38%
+    #ffffff 39%
   );
   padding: 10px;
   height: 55px;
   width: auto;
   user-select: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  margin: 0.5%;
 }
 img {
   width: 200px;
@@ -44,10 +45,14 @@ ul {
 	color:#ffffff;
 	display: block;
 	padding: 8px;
-	background-color: #0020b1;
+	background-color: #243A76;
   }
 
 a:hover {
 background-color: #333;
 color: #fff;
+}
+
+.destacar a{
+	background-color: red;
 }

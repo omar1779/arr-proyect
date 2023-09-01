@@ -1,0 +1,288 @@
+.Principal {
+  display: flex;
+  align-items: center;
+}
+.Balance {
+  background-color: white;
+  background-position: left;
+  position: relative;
+  top: 2vw;
+  left: 1vw;
+  width: 48%;
+  height: 50%;
+  margin: 5px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.Income {
+  background: white;
+  background-position: left;
+  position: relative;
+  top: 2vw;
+  left: 1vw;
+  width: 48%;
+  height: 50%;
+  margin: 5px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.Titulo {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.subtitulo {
+  margin: 2px;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Titulob {
+  margin: 5px;
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: left;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.TituloC {
+	margin: 5px;
+	font-size: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: left;
+	width: 100px;
+	border-radius: 10px;
+  }
+
+  .TituloD {
+	margin: 5px;
+	font-size: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: left;
+	width:fit-content;
+	border-radius: 10px;
+  }
+
+  .Tituloe {
+	margin: 5px;
+	font-size: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+	text-align: left;
+	width: 100px;
+	border-radius: 10px;
+  }
+
+.subtitulob {
+  margin: 2px;
+  font-weight: lighter;
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: fit-content;
+}
+
+.tablitaB {
+  margin-left: 0.5vw;
+  margin-bottom: 0.5vw;
+  width: 75%;
+  position: relative;
+  display: inline-block;
+  left: 10px;
+  border-radius: 0%;
+  border-collapse: collapse;
+}
+
+.cashb {
+  width: fit-content;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.cashb:disabled {
+  width: 60px;
+  background-color: transparent;
+  color: black;
+}
+
+.preg2 {
+  background-color: #e9e5e5;
+  border-color: transparent;
+  width: fit-content;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.preg1 {
+  background-color: transparent;
+  border-color: transparent;
+  width: fit-content;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.capsulaA {
+  position: relative;
+  top: 0vw;
+  left: 0vw;
+  width: fit-content;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.capsulaB {
+	position: relative;
+	top: 0vw;
+	left: 0vw;
+	width: fit-content;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  }
+
+  .tituloin{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: center;
+  }
+  .tituloinB{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .capsulaF {
+	position: relative;
+	display: contents;
+	top: 0vw;
+	left: 0vw;
+	width: fit-content;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  }
+
+  .tablitaC {
+	margin-left: 0.5vw;
+	margin-bottom: 0.5vw;
+	width: auto;
+	position: relative;
+	display: inline-block;
+	left: 10px;
+	border-radius: 0%;
+	border-collapse: collapse;
+  }
+  
+
+  .spanF {
+	margin: 1%;
+	display: block;
+	font-size: large;
+	z-index: 2;
+	text-align: center;
+	user-select: none;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  }
+  
+  
+  
+  .pB {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  }
+  
+  .labelA {
+	cursor: pointer;
+	position: relative;
+	display: inline-flex;
+	top: -0.5vw;
+	right: 32vw;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  }
+  
+  .texth {
+	position: relative;
+	top: 6vw;
+	left: 22vw;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  }
+  
+  .nombreE {
+	width: 405px;
+	height: 29px;
+	flex-shrink: 0;
+	border: none;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+	font-size: 25px;
+	text-align: center;
+  }
+  
+  .Insertar {
+	font-size: 25px;
+	text-align: center;
+	user-select: none;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	font-weight: bold;
+	right: 0;
+	top: 0;
+  }
+  
+  .BPen {
+	position: relative;
+	top: -1px;
+	left: 0;
+	font-size: 20px;
+	margin: 5px;
+	padding: 5px;
+  }
+  
+  .textha {
+	position: relative;
+	top: 6vw;
+	left: 17vw;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  }
+  
+  .botonesC {
+	position: relative;
+    display: flex;
+    text-align: center;
+    font-size: 38px;
+    right: 10px;
+    z-index: 2;
+    user-select: none;
+    top: 8vw;
+    align-items: center;
+	
+  }
+  
+  .pruebaback {
+	display: flex;
+	align-items: stretch;
+  }
+  .back{
+	position: relative;
+  }
+  .LinkNext{
+	display: contents;
+  }
+  .iconosc {
+	padding-left: 5%;
+  }
+  .submitL{
+display: contents;
+  }
+  

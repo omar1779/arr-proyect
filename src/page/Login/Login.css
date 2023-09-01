@@ -1,0 +1,214 @@
+.login{
+	position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    width: 60%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 7.5%;
+    top: 12%;
+}
+
+.SmileGuy{
+	height: 100%;
+	width: 100%;
+	position: sticky;
+	border: 0;
+	border-radius: 10px;
+	user-select: none;
+}
+
+.fondo{
+	width: 100%;
+	height:100%;
+	background-color: #131f3f;
+	user-select: none;
+}
+
+.formulario{
+	position: fixed;
+    background-color: rgba(255, 255, 255, 0.585);
+    width: 22%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    right: 10%;
+    top: 12%;
+    flex-direction: column;
+	border-radius: 10px;
+}
+
+.Email{
+	width: 100%;
+	height: 2vw;
+	border: 1px solid rgba(128, 128, 128, 0.522);
+	border-radius: 6px;
+	margin-bottom: 10px;
+	position: initial;
+	text-align: start;
+	background-color: #ffffffd5;
+}
+
+
+
+.LogoAR{
+	border: 0;
+	position: relative;
+	height: 18%;
+	width: 65%;
+	left:0;
+	top: 3%;
+	margin: 2%;
+	user-select: none;
+	
+}
+
+.Credentials{
+	font-size: 1.2vw;
+	text-align: start;
+}
+
+.Credentials2{
+	font-size: 1.2vw;
+	text-align: start;
+	margin: 0%;
+	
+	width: fit-content;
+
+}
+
+.Credentials2:hover{
+	text-shadow: 0px 0px 7px #ffffff;
+}
+
+.Credentials3{
+	font-size: 1.2vw;
+	text-align: center;
+}
+
+.centroLog{
+	position: relative;
+    width: 80%;
+    height: 20%;
+    top: 30px;
+}
+
+
+
+.Email1{
+	width: 100%;
+	height: 2vw;
+	border: 1px solid rgba(128, 128, 128, 0.522);
+	border-radius: 6px;
+	margin-bottom: 10px;
+	position: initial;
+	text-align: start;
+}
+
+.Email::placeholder{
+	text-align: start;
+}
+
+
+
+.BLog{
+	margin-top: 10%;
+    background-color: #243A76;
+    color: white;
+    width: 100%;
+    height: 30%;
+    top: 10px;
+    left: 0;
+    position: relative;
+	
+}
+
+.BLog:disabled{
+	background-color: #959494;
+	color: rgb(0, 0, 0);
+}
+
+.BCreate{
+	background-color: #243a76;
+	color: white;
+	width: 100%;
+	height: 30%;
+	position: initial;
+	
+}
+
+.grisesito{
+	font-size: small;
+	color: rgb(0, 0, 0);
+	position: relative;
+    top: 10px;
+}
+
+.grisesito:hover{
+	color: #243a76;
+	text-shadow: 0px 0px 7px #ffffff;
+	text-decoration:underline 1px #243a76;
+}
+
+
+.Ok{
+	position: relative;
+	display: flex;
+	right: 0%;
+	left: 0%;
+	top: 0%;
+}
+
+.Close{
+	position: relative;
+	display: flex;
+	right: 0%;
+	left: 0%;
+	top: 0%;
+}
+
+@media (max-width: 768px) {
+	.formulario {
+		width: 70%;
+	}
+
+	.Email{
+		width: 100%;
+		height: 5vw;
+		border: 1px solid rgba(128, 128, 128, 0.522);
+		border-radius: 6px;
+		margin-bottom: 10px;
+		position: initial;
+		text-align: start;
+		font-size: 3vw
+	}
+
+	.Credentials{
+		font-size: 5vw;
+		text-align: start;
+	}
+	
+	.Credentials2{
+		font-size: 4vw;
+		text-align: start;
+		margin: 0%;
+	}
+	
+	.Credentials3{
+		font-size: 4vw;
+		text-align: center;
+	}
+
+	.Email::placeholder{
+		text-align: start;
+		font-size: 3vw
+	}
+
+  }
+
+  .botonProv{
+	position: initial;
+	
+  }

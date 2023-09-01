@@ -3,22 +3,37 @@ p {
   font-weight: bolder;
   font-size: 25px;
 }
+.pAB {
+	font-weight: normal;
+	margin: 0.5%;
+  }
+
+  #pao{
+	margin: 15px;
+	text-decoration: 1px solid red;
+  }
+
+.pstart {
+
+  margin: 9px;
+}
 
 .todo {
   position: relative;
   display: table;
-  width: 98%;
+  width: 90%;
   text-align: center;
   background-color: #fff;
+  border-radius: 30px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
-  top: 1vw;
-  right: -1vw;
+  top: -1vw;
+  right: -5vw;
   z-index: 2;
   margin-bottom: 1vw;
 }
 
 select {
-  background-image: linear-gradient(to top, #0020b1, #ffffff 33%);
+  background-image: linear-gradient(to top, #243A76, #ffffff 33%);
   border: 2px solid rgb(151, 151, 151);
   border-radius: 10px;
   cursor: pointer;
@@ -26,7 +41,15 @@ select {
   position: relative;
   text-align: center;
   font-size: 16px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   top: -1vw;
+}
+.LinkNext {
+  background-color: #ffffff00;
+}
+
+.LinkNext:hover {
+  background-color: #ffffff00;
 }
 
 select:hover {
@@ -38,7 +61,7 @@ select:focus {
 }
 
 input[type="date"] {
-  background-image: linear-gradient(to top, #0020b1, #ffffff 33%);
+  background-image: linear-gradient(to top, #243A76, #ffffff 33%);
   border: 2px solid rgb(151, 151, 151);
   font-size: 16px;
   border-radius: 10px;
@@ -66,8 +89,67 @@ input::-webkit-datetime-edit-fields-wrapper {
   white-space: pre;
 }
 
-.tablita{
-	margin: 1vw;
-	border: 1px solid greenyellow;
+.tablita {
+  margin-bottom: 1vw;
+  border-radius: 10px;
+  width: 75%;
+  position: relative;
+  display: table;
+  right: -13%;
 }
+
+.preg {
+  color: #000000;
+  background-color: #e8e8e8;
+}
+
+.botonesA {
+  position: unset;
+  user-select: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.saveforlaterA,
+.nextA {
+  position: unset;
+  margin: 10px;
+}
+
+label {
+  cursor: pointer;
+  position: relative;
+  top: -0.5vw;
+  right: 25%;
+}
+
+.Name_of_list_box{
+	position: relative;
+	top:-0.2vw
+}
+
+#date{
+	position: relative;
+	top:-0.25vw
+}
+
+
+.todoB {
+	position: relative;
+	display: table;
+	top: 3vw;
+	right: -2%;
+	width: 96%;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+	z-index: 2;
+	margin-bottom: 1vw;
+	border-radius: 30px;
+  }
+
+  .TituloV {
+	margin: 5px;
+	font-size: 30px;
+  }
 
